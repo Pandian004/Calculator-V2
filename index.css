@@ -11,7 +11,10 @@ body{
 }
 
 .Calculator{
-    margin: 10% 36%;
+    /* margin: 10% 36%; */
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
     padding: 40px; 
     background-color: #505152;
     display: flex;
@@ -26,7 +29,7 @@ body{
 
 .CalcScreen input{
     padding: 10px;
-    width: 90.5%;
+    width: 310px;
     border-radius: 10px;
     background-color: #0c8526;
     font-size: 40px;
