@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="images/x-icon" href="calculator.png">
+    <script src="index.js"></script>
+</head>
+<body>
+   <div class="Calculator">
+        <div class="CalcScreen">
+            <input type="text" id="CalcScreen" readonly /><br><br>
+        </div>
+        <div class="CalcButton">
+            <button type="submit" id="allClear" onclick="clearScreen()">AC</button>
+            <button type="submit" id="delete" onclick="deleteScreen()">DEL</button>
+            <button type="submit" id="modulo" onclick="updateCalcScreen(' % ')">%</button>
+            <button type="submit" id="add" onclick="updateCalcScreen(' + ')">+</button><br>
+            <button type="submit" onclick="updateCalcScreen(7)">7</button>
+            <button type="submit" onclick="updateCalcScreen(8)">8</button>
+            <button type="submit" onclick="updateCalcScreen(9)">9</button>
+            <button type="submit" id="sub" onclick="updateCalcScreen(' - ')">-</button><br>
+            <button type="submit" onclick="updateCalcScreen(4)">4</button>
+            <button type="submit" onclick="updateCalcScreen(5)">5</button>
+            <button type="submit" onclick="updateCalcScreen(6)">6</button>
+            <button type="submit" id="multiply" onclick="updateCalcScreen(' * ')">×</button><br>
+            <button type="submit" onclick="updateCalcScreen(3)">3</button>
+            <button type="submit" onclick="updateCalcScreen(2)">2</button>
+            <button type="submit" onclick="updateCalcScreen(1)">1</button>
+            <button type="submit" id="divide" onclick="updateCalcScreen(' / ')">÷</button><br>
+            <button type="submit" onclick="updateCalcScreen(0)">0</button>
+            <button type="submit" onclick="updateCalcScreen('.')">.</button>
+            <button type="submit" id="equals" onclick="calculateAns()">=</button>
+        </div>
+    </div>
+</body>
+</html>

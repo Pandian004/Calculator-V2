@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Digital-7-segment";
+    src: url("./fonts/Digital7-rg1mL.ttf") format("truetype");
+}
+
+body{
+    background-image: url('./BackgroundImage.jpg');
+    background-size: 100%;
+    background-position: center center ;
+    background-repeat: no-repeat;
+}
+
+.Calculator{
+    margin: 10% 36%;
+    padding: 40px; 
+    background-color: #505152;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    gap: 10px;
+    box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.6);
+}
+
+.CalcScreen input{
+    padding: 10px;
+    width: 90.5%;
+    border-radius: 10px;
+    background-color: #0c8526;
+    font-size: 40px;
+    outline: none;
+    font-family: "Digital-7-segment";
+}
+
+.CalcButton button{
+    padding: 15px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+#equals{
+    width: 165px;
+    background-image: linear-gradient(to right bottom, #FDC830, #F37335);
+}
+
+#allClear{
+    background-image: linear-gradient(to right bottom, #e52d27, #b31217);
+}
+
+#delete{
+    background-image: linear-gradient(to right bottom, #36D1DC, #5B86E5);
+}
+
+#modulo, #add, #sub, #multiply, #divide{
+    background-image: linear-gradient(to right bottom, #8e9eab, #eef2f3);
+}
